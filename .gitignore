@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Training and experiment outputs
+models/*
+!models/.gitkeep
+*.log
+runs/
+wandb/
+
+# Local/generated datasets
+# Keep only data/README.md in the public repository.
+data/*.csv
+!data/README.md
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Android integration is currently out of scope
+android/
